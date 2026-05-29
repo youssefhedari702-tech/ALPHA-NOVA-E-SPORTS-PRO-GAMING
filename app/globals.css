@@ -1,99 +1,21 @@
 @import "tailwindcss";
 
-
 :root {
-
   --background: #000000;
-
   --foreground: #ffffff;
-
   --primary: #00ff99;
 }
 
-
 html,
 body {
-
   padding: 0;
-
   margin: 0;
-
   background: var(--background);
-
   color: var(--foreground);
-
-  font-family: Arial, Helvetica, sans-serif;
-
   min-height: 100vh;
-
-  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
 
 * {
-
   box-sizing: border-box;
-}
-
-
-body {
-
-  background-image:
-    radial-gradient(circle at top left, rgba(0,255,153,0.15), transparent 30%),
-    radial-gradient(circle at bottom right, rgba(0,255,255,0.08), transparent 30%);
-}
-
-
-a {
-
-  color: inherit;
-
-  text-decoration: none;
-}
-
-
-button {
-
-  cursor: pointer;
-
-  transition: all 0.2s ease-in-out;
-}
-
-
-button:hover {
-
-  transform: scale(1.03);
-}
-
-
-.glass-card {
-
-  background: rgba(255,255,255,0.05);
-
-  border: 1px solid rgba(255,255,255,0.08);
-
-  backdrop-filter: blur(12px);
-
-  border-radius: 24px;
-}
-
-
-.neon-text {
-
-  color: #00ff99;
-
-  text-shadow:
-    0 0 5px #00ff99,
-    0 0 10px #00ff99,
-    0 0 20px #00ff99;
-}
-
-
-.neon-border {
-
-  border: 1px solid #00ff99;
-
-  box-shadow:
-    0 0 5px #00ff99,
-    0 0 10px rgba(0,255,153,0.5);
 }
